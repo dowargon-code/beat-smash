@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ビートスマッシュ Beat Smash</title>
+    <meta
+      name="description"
+      content="ビートが光った瞬間に殴れ。ジャストヒットはダメージも吹っ飛びも一段デカい、2〜4人のローカル対戦。"
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect fill='%23ff3b5c' x='8' y='8' width='48' height='48' rx='10'/%3E%3Ccircle fill='%23ffe14a' cx='32' cy='32' r='8'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="stage">
+      <canvas id="game" width="1280" height="720">ビートスマッシュ</canvas>
+    </div>
+    <p class="help">
+      <strong>P1</strong> WASD 移動 · J 弱 · K 強 · L 回避
+      &nbsp;&nbsp;
+      <strong>P2</strong> 矢印 · I/テンキー1 弱 · O/2 強 · P/3 回避
+      &nbsp;&nbsp;
+      M ミュート · Esc 一時停止
+    </p>
+    <script src="./src/audio.js"></script>
+    <script src="./src/sim.js"></script>
+    <script src="./src/render.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
